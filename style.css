@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: #3d405b;
+    height: 5rem;
+}
+#heading{
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 5rem;
+    font-size: 3rem;
+}
+#stone{
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-image: url(rock.png);
+    background-position-x: 6cm;
+    background-size: cover;
+    background-color: #8E44AD;
+    border-radius: 50%;
+}
+#paper{
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-image: url(paper.png);
+    background-position-x: 6cm;
+    background-size: cover;
+    background-color: #1ABC9C;
+    border-radius: 50%;
+}
+#scissor{
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-image: url(scissors.png);
+    background-position-x: 6cm;
+    background-size: cover;
+    background-color: #D32F2F;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32vh;
+    gap: 2rem;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+#you p{
+    font-size: 3rem;
+    text-align: center;
+}
+#comp p{
+    font-size: 3rem;
+    text-align: center;
+}
+.pick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+#pick{
+    background-color: #3d405b;
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.pick_hide{
+    padding-top: 2.2rem;
+}
+#you #y_scr{
+    font-size: 4rem;
+}
+#comp #comp_scr{
+    font-size: 4rem;
+}
+.hover:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#restart{
+    text-align: center;
+}
+#restart button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: #3d405b;
+    border: 0;
+    font-size: 1.3rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.hide{
+    display: none;
+}
