@@ -4,13 +4,13 @@
 }
 .nav{
     background-color: #3d405b;
-    height: 5rem;
+    height: 8rem;
 }
 #heading{
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     text-align: center;
-    line-height: 5rem;
+    line-height: 8rem;
     font-size: 3rem;
 }
 #stone{
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 32vh;
+    height: 39vh;
     gap: 2rem;
 }
 .score{
@@ -75,14 +75,11 @@
     height: 10rem;
     width: 100%;
     text-align: center;
-    line-height: 5rem;
+    line-height: 10rem;
     font-size: 3rem;
     font-weight: 700;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-.pick_hide{
-    padding-top: 2.2rem;
 }
 #you #y_scr{
     font-size: 4rem;
